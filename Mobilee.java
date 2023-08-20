@@ -1,2 +1,0 @@
-class Mobilee extends ElectronicDevice{
-}

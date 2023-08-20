@@ -1,2 +1,0 @@
-class Allexa extends VirtualAssistance{
-}
