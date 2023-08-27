@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="asignment.css" rel="stylesheet">
+    <script src="asignment.js"></script>
+    <script>
+      // function Submit(){
+      //  alert('Sucessfully Submited');
+      //  }
+      </script>
+</head>
+<body>
+  <form name="newForm" onsubmit="validationMethod()">
+    <div class="navbar">
+        <a href="#home">HOME</a>
+        <a href="Links">Links</a>
+        <div class="dropdown">
+            <button class="btn">Dropdown
+                <i class="fa-fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
+    <div> 
+      
+      <form class="backgrnd-clr">
+      <h1>Register Form</h1>
+        <div class="main-body">
+          <div class="first-name">
+          FirstName<span style="color: red" >*</span><input
+            type="text"
+            placeholder="Enter First-Name"
+            id="nameid"
+            required
+            name="nameName" class="input-width"/>
+        </div>
+        <br />
+        <div class="first-name">
+          LastName<span style="color: red">*</span><input placeholder="Enter Last-Name"
+          type="text"
+          id="nameid"
+          required
+          name="nameName" class="input-width"
+          
+          />
+        </div>
+        <br />
+        <div class="first-name">
+          Contact Number<span style="color: red">*</span><input
+            type="tel"
+            id="numid"
+            placeholder="Enter Contact-no"
+            maxlength="10"
+            name="Number" class="input-width"
+            required
+          />
+        </div class="first-name">
+        <br />
+        <div class="first-name">
+          E-Mail-id:<input type="email" id="email"   placeholder="Enter Email" name="E-mail" class="input-width"  required/></div>
+        <br />
+        <div class="first-name">
+        <label>Select Education:</label>
+        <select class="first-name">
+          <option value="BE">BE</option>
+          <option value="BCOM">BCOM</option>
+          <option value="BCA">BCA</option>
+          <option value="MSC">MSC</option>
+        </select>
+        </div>
+
+        <div class="first-name" >
+          <span>Select gender:</span>
+          <input type="radio" id="inputMale" name="radioName" /><span>Male</span>
+          <input type="radio" id="inputFemale" name="radioName" /><span>Female</span>
+          <br /><br>
+           <label>Select Technologies:</label>
+          <select class="first-name">
+            <option value="Java">Java</option>
+            <option value="Python">python</option>
+            <option value="Devops">Devops</option>
+            <option value="React">React</option>
+          </select>
+          
+          <br /><br>
+          <label>Select State:</label>
+          <select class="first-name">
+            <option value="Andhra Pradesh">Andhra Pradesh</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Haryana">Haryana</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Kerala">Kerala</option>
+            <option value="Karnataka">Karnataka</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>  
+          </select><br /><br>
+          <label for="psw">
+            Password:</label>
+            <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br /><br>
+            <label for="repaeat--psw">
+                Repeat-Password:</label>
+                <input type="password" placeholder="Repeat Password" name="psw" id="psw" required><br /><br>
+          <!-- </label> -->
+          <img src="moni.jpeg" alt="image here" height="35px" width="100px">
+          <div class="btn">
+          <button type="submit" class="btn-width" onclick="Submit()">Submit</button></div>
+            <!-- <div class="btn"><button type="submit" id="Save" class="b-width">Reset</button></div> -->
+            <!-- <button onclick="Submit()">Submit</button> -->
+
+           <!-- <button onclick="clickHere()">clickHere</button> -->
+            
+        
+          </div>
+      </div>
+       </form>
+     
+    
+</body>
+</html>
